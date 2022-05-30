@@ -1,0 +1,22 @@
+#bucket{
+    /* border: 1px solid black; */
+    /* height: 200px; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+  }
+
+  #image{
+    height: 250px;
+    width: 100%;
+  }
+
+  #confirm_checkout{
+    padding: 10px;
+    background-color: rgb(46, 7, 7);
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+  }
